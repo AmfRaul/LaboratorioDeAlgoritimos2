@@ -7,9 +7,8 @@
 #Fórmula: N!/(M! * (N-M)!)
 
 #Para calcular o fatorial (!) utilize a biblioteca math com comando math.factorial(value)
-
+import math
 def calculo(n,m):
-    import math
     try:
 
         if m < 0 or m > n:
